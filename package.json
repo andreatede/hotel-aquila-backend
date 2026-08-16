@@ -1,0 +1,19 @@
+{
+  "name": "hotel-aquila-backend",
+  "version": "2.0.0",
+  "description": "Backend di prenotazione per Hotel Aquila — database Postgres (Supabase) e checkout Stripe",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.23.0",
+    "stripe": "^22.5.0"
+  }
+}
